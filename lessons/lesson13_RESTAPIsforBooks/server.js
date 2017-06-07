@@ -1,6 +1,8 @@
 const net = require('net')
 const httpPOST = require('./handlePOST')
 const httpGET = require('./handleGet')
+const httpPATCH = require('./handlePATCH')
+const httpDELETE = require('./handleDELETE')
 
 const server = net.createServer((socket) => {
   socket.on('data', (data) => {
@@ -14,9 +16,12 @@ const server = net.createServer((socket) => {
      } else if (header[1] == 'POST') {
        httpPOST(socket, data)
      } else if (header[1] == 'PATCH') {
-       handlePATCH(socket, book_id, data)
+       var book_id = header[3]
+       httpPATCH(socket, data, book_id)
      } else if (header[1] == 'DELETE') {
-       handleDELETE(socket, book_id)
+       console.log('Header is', header[1])
+       var book_id = header[3]
+       httpDELETE(socket, book_id)
      }
     }
   })
