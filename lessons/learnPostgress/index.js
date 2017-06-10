@@ -2,6 +2,9 @@ const pg = require('pg')
 const net = require('net')
 const httpGET = require('./handleGET')
 const httpPOST = require('./handlePOST')
+const httpPATCH = require('./handlePATCH')
+const httpDELETE = require('./handleDELETE')
+const httpPUT = require('./handlePUT')
 
 const client = new pg.Client({
   user: "cnaioccqnnsjhb",
@@ -32,13 +35,24 @@ const server = net.createServer((socket) => {
     console.log('CONNECTED****', data.toString())
 
     var header = data.toString().match(/(.+)\s.+book(\/(.+))?\sHTTP/)
+    console.log('Header[1]', header)
     if (header) {
       if (header[1] == 'GET') {
         var book_id = header[3]
         console.log('BOOK ID IS', book_id)
         httpGET(socket,book_id, client)
       } else if (header[1] == 'POST') {
+        console.log('In Index for POST', data.toString())
         httpPOST(socket, client, data)
+      } else if (header[1] == 'PATCH') {
+        var book_id = header[3]
+        httpPATCH (socket, client, data, book_id)
+      } else if (header[1] == 'DELETE') {
+        var book_id = header[3]
+        httpDELETE (socket, client, book_id)
+      } else if(header[1] == 'PUT') {
+        var book_id = header[3]
+        httpPUT (socket, client, data, book_id)
       }
     }
   })
