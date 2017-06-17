@@ -1,0 +1,24 @@
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+</head>
+<body>
+  <table style="width:60%">
+    <tr>
+      <th>Users</th>
+    </tr>
+    {{#userlist}}
+    <tr>
+      <td>{{Username}}</td>
+    </tr>
+    {{/userlist}}
+  </table>
+  <br/>
+  <br/>
+</body>
+</html>

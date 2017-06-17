@@ -1,0 +1,33 @@
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+</head>
+<body>
+  <h1>
+    {{#rows}}
+    {{name}}
+    {{author}}
+    {{/rows}}
+  </h1>
+  <table style="width:60%">
+    <tr>
+      <th>Book</th>
+      <th>Author</th>
+    </tr>
+    {{#rows}}
+    <tr>
+      <td>{{name}}</td>
+      <td>{{author}}</td>
+    </tr>
+    {{/rows}}
+  </table>
+  <br/>
+  <br/>
+  <img src="/images/Onboarding_2.png"/>
+</body>
+</html>

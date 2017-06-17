@@ -44,8 +44,7 @@ const server = network.createServer((client) => {
       if(game_on == false)
       {
         client.write('Was not expecting an input')
-      }
-      else if(game_on == true){
+      } else if(game_on == true){
         guess = parseInt(data.toString())
         playGame(guess,client)
         console.log('Game on player guess', guess)

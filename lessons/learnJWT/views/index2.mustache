@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <form method="POST" action="/">
+    Select Account Name:<br>
+    <input type="text" name="account" value="" placeholder="Enter Account Name">
+    <br><br>
+    Account #:<br>
+    <input type="text" name="accountnumber" value="" placeholder="Enter Account #">
+    <br><br>
+    Select Username:<br>
+    <select id="operands" name="username">
+      {{#userlist}}
+      <option>{{Username}}</option>
+      {{/userlist}}
+    </select>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+  <p>If you click the "Submit" button, the form-data will be sent to Salesforce</p>
+</body>
+</html>
