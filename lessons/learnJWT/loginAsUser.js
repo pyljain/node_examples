@@ -7,20 +7,20 @@ var access_URL = ''
 
 var account_id = ''
 
+const key = require('fs').readFileSync('./privateKey.key', 'utf8')
+const options = {
+  issuer: '3MVG9HxRZv05HarSPq0qF3jdOU2KRM3dYJmTd3X0P4jxakYWWDqLMMsiRgdgY7EsWFMsvy9YkwfEIqsXJagd.',
+  audience: 'https://login.salesforce.com',
+  expiresIn: 60*3,
+  algorithm: 'RS256'
+}
+
 function loginAsUser(username, account, accountnumber, callbackmain) {
   //Connect to Salesforce as the user to get the accesstoken
 
   console.log('IN LOGINASUSER, selectedUser is', username)
   const JWT = require('jsonwebtoken')
   const request = require('request')
-
-  const key = require('fs').readFileSync('./privateKey.key', 'utf8')
-  const options = {
-    issuer: '3MVG9HxRZv05HarSPq0qF3jdOU2KRM3dYJmTd3X0P4jxakYWWDqLMMsiRgdgY7EsWFMsvy9YkwfEIqsXJagd.',
-    audience: 'https://login.salesforce.com',
-    expiresIn: 60*3,
-    algorithm: 'RS256'
-  }
 
   const token = JWT.sign({ sub: `${username}`}, key, options)
 

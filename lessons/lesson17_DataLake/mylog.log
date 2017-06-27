@@ -1,0 +1,791 @@
+Server Ready
+Producer Connected
+COUNT OF NEW MESSAGES FOR THE QUEUE IS 0
+New CUSTOMERS FOUND 0
+*** In Existing Matches Else ****
+Producer Connected
+COUNT OF NEW MESSAGES FOR THE QUEUE IS 1019
+New CUSTOMERS FOUND 0
+*** In Existing Matches Else ****
+In Update the customer json is  { firstName: 'Roshelle',
+  lastName: 'O\'Gavin',
+  email: 'rogavin54@example.com',
+  gender: 'Female',
+  deposit: '3003',
+  accountnumber: '185  ' }
+In Update the customer json is  { firstName: 'Vergil',
+  lastName: 'O\'Kynsillaghe',
+  email: 'vokynsillaghekp@hatena.ne.jp',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '746  ' }
+In Update the customer json is  { firstName: 'Haywood',
+  lastName: 'O\'Howbane',
+  email: 'hohowbanemd@house.gov',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '806  ' }
+In Update the customer json is  { firstName: 'Dionysus',
+  lastName: 'O\'Grada',
+  email: 'dogradaou@parallels.com',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '895  ' }
+In Update the customer json is  { firstName: 'Podgy',
+  lastName: 'Panda',
+  email: 'bunny3@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10003' }
+In Update the customer json is  { firstName: 'Dodgy',
+  lastName: 'Panda',
+  email: 'bunny4@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10004' }
+In Update the customer json is  { firstName: 'Lolly',
+  lastName: 'Liger',
+  email: 'bunny5@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10006' }
+In Update the customer json is  { firstName: 'Lolly',
+  lastName: 'Liger',
+  email: 'bunny5@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10006' }
+In Update the customer json is  { firstName: 'Loving',
+  lastName: 'Liger',
+  email: 'bunny6@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10007' }
+In Update the customer json is  { firstName: 'Loving',
+  lastName: 'Tiger',
+  email: 'bunny7@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10008' }
+In Update the customer json is  { firstName: 'Loving',
+  lastName: 'Wiger',
+  email: 'WWWWbunny7@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10009' }
+In Update the customer json is  { firstName: 'Janeta',
+  lastName: 'O\'Keefe',
+  email: 'jokeefe80@trellian.com',
+  gender: 'Female',
+  deposit: '3003',
+  accountnumber: '289  ' }
+In Update the customer json is  { firstName: 'Scott',
+  lastName: 'Camera',
+  email: 'wodgy@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10010' }
+In Update the customer json is  { firstName: 'Ethelda',
+  lastName: 'O\'Rodane',
+  email: 'eorodaneeu@imageshack.us',
+  gender: 'Female',
+  deposit: '3003',
+  accountnumber: '535  ' }
+In Update the customer json is  { firstName: 'Chic',
+  lastName: 'O\'Dare',
+  email: 'codarefh@upenn.edu',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '558  ' }
+In Update the customer json is  { firstName: 'Jodie',
+  lastName: 'O\'Lyhane',
+  email: 'jolyhane2u@pbs.org',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '103  ' }
+In Update the customer json is  { firstName: 'Palm',
+  lastName: 'O\'Loinn',
+  email: 'poloinne5@irs.gov',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '510  ' }
+In Update the customer json is  { firstName: 'Light',
+  lastName: 'Lemur',
+  email: 'bunny2@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10002' }
+Producer Connected
+COUNT OF NEW MESSAGES FOR THE QUEUE IS 4
+New CUSTOMERS FOUND 0
+*** In Existing Matches Else ****
+In Update the customer json is  { firstName: 'Roshelle',
+  lastName: 'O\'Gavin',
+  email: 'rogavin54@example.com',
+  gender: 'Female',
+  deposit: '3003',
+  accountnumber: '185  ' }
+In Update the customer json is  { firstName: 'Vergil',
+  lastName: 'O\'Kynsillaghe',
+  email: 'vokynsillaghekp@hatena.ne.jp',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '746  ' }
+In Update the customer json is  { firstName: 'Haywood',
+  lastName: 'O\'Howbane',
+  email: 'hohowbanemd@house.gov',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '806  ' }
+In Update the customer json is  { firstName: 'Dionysus',
+  lastName: 'O\'Grada',
+  email: 'dogradaou@parallels.com',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '895  ' }
+In Update the customer json is  { firstName: 'Podgy',
+  lastName: 'Panda',
+  email: 'bunny3@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10003' }
+In Update the customer json is  { firstName: 'Dodgy',
+  lastName: 'Panda',
+  email: 'bunny4@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10004' }
+In Update the customer json is  { firstName: 'Dodgy',
+  lastName: 'Danda',
+  email: 'bunny5@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10005' }
+In Update the customer json is  { firstName: 'Dodgy',
+  lastName: 'Danda',
+  email: 'bunny5@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10005' }
+In Update the customer json is  { firstName: 'Loving',
+  lastName: 'Liger',
+  email: 'bunny6@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10007' }
+In Update the customer json is  { firstName: 'Loving',
+  lastName: 'Tiger',
+  email: 'bunny7@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10008' }
+In Update the customer json is  { firstName: 'Loving',
+  lastName: 'Wiger',
+  email: 'WWWWbunny7@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10009' }
+In Update the customer json is  { firstName: 'Janeta',
+  lastName: 'O\'Keefe',
+  email: 'jokeefe80@trellian.com',
+  gender: 'Female',
+  deposit: '3003',
+  accountnumber: '289  ' }
+In Update the customer json is  { firstName: 'Scott',
+  lastName: 'Camera',
+  email: 'wodgy@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10010' }
+In Update the customer json is  { firstName: 'Ethelda',
+  lastName: 'O\'Rodane',
+  email: 'eorodaneeu@imageshack.us',
+  gender: 'Female',
+  deposit: '3003',
+  accountnumber: '535  ' }
+In Update the customer json is  { firstName: 'Chic',
+  lastName: 'O\'Dare',
+  email: 'codarefh@upenn.edu',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '558  ' }
+In Update the customer json is  { firstName: 'Jodie',
+  lastName: 'O\'Lyhane',
+  email: 'jolyhane2u@pbs.org',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '103  ' }
+In Update the customer json is  { firstName: 'Palm',
+  lastName: 'O\'Loinn',
+  email: 'poloinne5@irs.gov',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '510  ' }
+In Update the customer json is  { firstName: 'Light',
+  lastName: 'Lemur',
+  email: 'bunny2@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10002' }
+Producer Connected
+COUNT OF NEW MESSAGES FOR THE QUEUE IS 4
+New CUSTOMERS FOUND 0
+*** In Existing Matches Else ****
+In Update the customer json is  { firstName: 'Roshelle',
+  lastName: 'O\'Gavin',
+  email: 'rogavin54@example.com',
+  gender: 'Female',
+  deposit: '3003',
+  accountnumber: '185  ' }
+In Update the customer json is  { firstName: 'Vergil',
+  lastName: 'O\'Kynsillaghe',
+  email: 'vokynsillaghekp@hatena.ne.jp',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '746  ' }
+In Update the customer json is  { firstName: 'Haywood',
+  lastName: 'O\'Howbane',
+  email: 'hohowbanemd@house.gov',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '806  ' }
+In Update the customer json is  { firstName: 'Dionysus',
+  lastName: 'O\'Grada',
+  email: 'dogradaou@parallels.com',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '895  ' }
+In Update the customer json is  { firstName: 'Podgy',
+  lastName: 'Panda',
+  email: 'bunny3@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10003' }
+In Update the customer json is  { firstName: 'Dodgy',
+  lastName: 'Panda',
+  email: 'bunny4@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10004' }
+In Update the customer json is  { firstName: 'Lolly',
+  lastName: 'Liger',
+  email: 'bunny5@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10006' }
+In Update the customer json is  { firstName: 'Lolly',
+  lastName: 'Liger',
+  email: 'bunny5@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10006' }
+In Update the customer json is  { firstName: 'Loving',
+  lastName: 'Liger',
+  email: 'bunny6@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10007' }
+In Update the customer json is  { firstName: 'Loving',
+  lastName: 'Tiger',
+  email: 'bunny7@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10008' }
+In Update the customer json is  { firstName: 'Loving',
+  lastName: 'Wiger',
+  email: 'WWWWbunny7@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10009' }
+In Update the customer json is  { firstName: 'Janeta',
+  lastName: 'O\'Keefe',
+  email: 'jokeefe80@trellian.com',
+  gender: 'Female',
+  deposit: '3003',
+  accountnumber: '289  ' }
+In Update the customer json is  { firstName: 'Scott',
+  lastName: 'Camera',
+  email: 'wodgy@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10010' }
+In Update the customer json is  { firstName: 'Ethelda',
+  lastName: 'O\'Rodane',
+  email: 'eorodaneeu@imageshack.us',
+  gender: 'Female',
+  deposit: '3003',
+  accountnumber: '535  ' }
+In Update the customer json is  { firstName: 'Chic',
+  lastName: 'O\'Dare',
+  email: 'codarefh@upenn.edu',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '558  ' }
+In Update the customer json is  { firstName: 'Jodie',
+  lastName: 'O\'Lyhane',
+  email: 'jolyhane2u@pbs.org',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '103  ' }
+In Update the customer json is  { firstName: 'Palm',
+  lastName: 'O\'Loinn',
+  email: 'poloinne5@irs.gov',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '510  ' }
+In Update the customer json is  { firstName: 'Light',
+  lastName: 'Lemur',
+  email: 'bunny2@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10002' }
+Producer Connected
+COUNT OF NEW MESSAGES FOR THE QUEUE IS 4
+New CUSTOMERS FOUND 0
+*** In Existing Matches Else ****
+In Update the customer json is  { firstName: 'Roshelle',
+  lastName: 'O\'Gavin',
+  email: 'rogavin54@example.com',
+  gender: 'Female',
+  deposit: '3003',
+  accountnumber: '185  ' }
+In Update the customer json is  { firstName: 'Vergil',
+  lastName: 'O\'Kynsillaghe',
+  email: 'vokynsillaghekp@hatena.ne.jp',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '746  ' }
+In Update the customer json is  { firstName: 'Haywood',
+  lastName: 'O\'Howbane',
+  email: 'hohowbanemd@house.gov',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '806  ' }
+In Update the customer json is  { firstName: 'Dionysus',
+  lastName: 'O\'Grada',
+  email: 'dogradaou@parallels.com',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '895  ' }
+In Update the customer json is  { firstName: 'Podgy',
+  lastName: 'Panda',
+  email: 'bunny3@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10003' }
+In Update the customer json is  { firstName: 'Dodgy',
+  lastName: 'Panda',
+  email: 'bunny4@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10004' }
+In Update the customer json is  { firstName: 'Dodgy',
+  lastName: 'Danda',
+  email: 'bunny5@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10005' }
+In Update the customer json is  { firstName: 'Dodgy',
+  lastName: 'Danda',
+  email: 'bunny5@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10005' }
+In Update the customer json is  { firstName: 'Loving',
+  lastName: 'Liger',
+  email: 'bunny6@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10007' }
+In Update the customer json is  { firstName: 'Loving',
+  lastName: 'Tiger',
+  email: 'bunny7@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10008' }
+In Update the customer json is  { firstName: 'Loving',
+  lastName: 'Wiger',
+  email: 'WWWWbunny7@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10009' }
+In Update the customer json is  { firstName: 'Janeta',
+  lastName: 'O\'Keefe',
+  email: 'jokeefe80@trellian.com',
+  gender: 'Female',
+  deposit: '3003',
+  accountnumber: '289  ' }
+In Update the customer json is  { firstName: 'Scott',
+  lastName: 'Camera',
+  email: 'wodgy@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10010' }
+In Update the customer json is  { firstName: 'Ethelda',
+  lastName: 'O\'Rodane',
+  email: 'eorodaneeu@imageshack.us',
+  gender: 'Female',
+  deposit: '3003',
+  accountnumber: '535  ' }
+In Update the customer json is  { firstName: 'Chic',
+  lastName: 'O\'Dare',
+  email: 'codarefh@upenn.edu',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '558  ' }
+In Update the customer json is  { firstName: 'Jodie',
+  lastName: 'O\'Lyhane',
+  email: 'jolyhane2u@pbs.org',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '103  ' }
+In Update the customer json is  { firstName: 'Palm',
+  lastName: 'O\'Loinn',
+  email: 'poloinne5@irs.gov',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '510  ' }
+In Update the customer json is  { firstName: 'Light',
+  lastName: 'Lemur',
+  email: 'bunny2@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10002' }
+Producer Connected
+COUNT OF NEW MESSAGES FOR THE QUEUE IS 4
+New CUSTOMERS FOUND 0
+*** In Existing Matches Else ****
+In Update the customer json is  { firstName: 'Roshelle',
+  lastName: 'O\'Gavin',
+  email: 'rogavin54@example.com',
+  gender: 'Female',
+  deposit: '3003',
+  accountnumber: '185  ' }
+In Update the customer json is  { firstName: 'Vergil',
+  lastName: 'O\'Kynsillaghe',
+  email: 'vokynsillaghekp@hatena.ne.jp',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '746  ' }
+In Update the customer json is  { firstName: 'Haywood',
+  lastName: 'O\'Howbane',
+  email: 'hohowbanemd@house.gov',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '806  ' }
+In Update the customer json is  { firstName: 'Dionysus',
+  lastName: 'O\'Grada',
+  email: 'dogradaou@parallels.com',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '895  ' }
+In Update the customer json is  { firstName: 'Podgy',
+  lastName: 'Panda',
+  email: 'bunny3@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10003' }
+In Update the customer json is  { firstName: 'Dodgy',
+  lastName: 'Panda',
+  email: 'bunny4@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10004' }
+In Update the customer json is  { firstName: 'Lolly',
+  lastName: 'Liger',
+  email: 'bunny5@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10006' }
+In Update the customer json is  { firstName: 'Lolly',
+  lastName: 'Liger',
+  email: 'bunny5@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10006' }
+In Update the customer json is  { firstName: 'Loving',
+  lastName: 'Liger',
+  email: 'bunny6@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10007' }
+In Update the customer json is  { firstName: 'Loving',
+  lastName: 'Tiger',
+  email: 'bunny7@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10008' }
+In Update the customer json is  { firstName: 'Loving',
+  lastName: 'Wiger',
+  email: 'WWWWbunny7@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10009' }
+In Update the customer json is  { firstName: 'Janeta',
+  lastName: 'O\'Keefe',
+  email: 'jokeefe80@trellian.com',
+  gender: 'Female',
+  deposit: '3003',
+  accountnumber: '289  ' }
+In Update the customer json is  { firstName: 'Scott',
+  lastName: 'Camera',
+  email: 'wodgy@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10010' }
+In Update the customer json is  { firstName: 'Ethelda',
+  lastName: 'O\'Rodane',
+  email: 'eorodaneeu@imageshack.us',
+  gender: 'Female',
+  deposit: '3003',
+  accountnumber: '535  ' }
+In Update the customer json is  { firstName: 'Chic',
+  lastName: 'O\'Dare',
+  email: 'codarefh@upenn.edu',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '558  ' }
+In Update the customer json is  { firstName: 'Jodie',
+  lastName: 'O\'Lyhane',
+  email: 'jolyhane2u@pbs.org',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '103  ' }
+In Update the customer json is  { firstName: 'Palm',
+  lastName: 'O\'Loinn',
+  email: 'poloinne5@irs.gov',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '510  ' }
+In Update the customer json is  { firstName: 'Light',
+  lastName: 'Lemur',
+  email: 'bunny2@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10002' }
+Producer Connected
+COUNT OF NEW MESSAGES FOR THE QUEUE IS 4
+New CUSTOMERS FOUND 0
+*** In Existing Matches Else ****
+In Update the customer json is  { firstName: 'Roshelle',
+  lastName: 'O\'Gavin',
+  email: 'rogavin54@example.com',
+  gender: 'Female',
+  deposit: '3003',
+  accountnumber: '185  ' }
+In Update the customer json is  { firstName: 'Vergil',
+  lastName: 'O\'Kynsillaghe',
+  email: 'vokynsillaghekp@hatena.ne.jp',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '746  ' }
+In Update the customer json is  { firstName: 'Haywood',
+  lastName: 'O\'Howbane',
+  email: 'hohowbanemd@house.gov',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '806  ' }
+In Update the customer json is  { firstName: 'Dionysus',
+  lastName: 'O\'Grada',
+  email: 'dogradaou@parallels.com',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '895  ' }
+In Update the customer json is  { firstName: 'Podgy',
+  lastName: 'Panda',
+  email: 'bunny3@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10003' }
+In Update the customer json is  { firstName: 'Dodgy',
+  lastName: 'Panda',
+  email: 'bunny4@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10004' }
+In Update the customer json is  { firstName: 'Dodgy',
+  lastName: 'Danda',
+  email: 'bunny5@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10005' }
+In Update the customer json is  { firstName: 'Dodgy',
+  lastName: 'Danda',
+  email: 'bunny5@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10005' }
+In Update the customer json is  { firstName: 'Loving',
+  lastName: 'Liger',
+  email: 'bunny6@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10007' }
+In Update the customer json is  { firstName: 'Loving',
+  lastName: 'Tiger',
+  email: 'bunny7@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10008' }
+In Update the customer json is  { firstName: 'Loving',
+  lastName: 'Wiger',
+  email: 'WWWWbunny7@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10009' }
+In Update the customer json is  { firstName: 'Janeta',
+  lastName: 'O\'Keefe',
+  email: 'jokeefe80@trellian.com',
+  gender: 'Female',
+  deposit: '3003',
+  accountnumber: '289  ' }
+In Update the customer json is  { firstName: 'Scott',
+  lastName: 'Camera',
+  email: 'wodgy@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10010' }
+In Update the customer json is  { firstName: 'Ethelda',
+  lastName: 'O\'Rodane',
+  email: 'eorodaneeu@imageshack.us',
+  gender: 'Female',
+  deposit: '3003',
+  accountnumber: '535  ' }
+In Update the customer json is  { firstName: 'Chic',
+  lastName: 'O\'Dare',
+  email: 'codarefh@upenn.edu',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '558  ' }
+In Update the customer json is  { firstName: 'Jodie',
+  lastName: 'O\'Lyhane',
+  email: 'jolyhane2u@pbs.org',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '103  ' }
+In Update the customer json is  { firstName: 'Palm',
+  lastName: 'O\'Loinn',
+  email: 'poloinne5@irs.gov',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '510  ' }
+In Update the customer json is  { firstName: 'Light',
+  lastName: 'Lemur',
+  email: 'bunny2@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10002' }
+Producer Connected
+COUNT OF NEW MESSAGES FOR THE QUEUE IS 4
+New CUSTOMERS FOUND 0
+*** In Existing Matches Else ****
+In Update the customer json is  { firstName: 'Roshelle',
+  lastName: 'O\'Gavin',
+  email: 'rogavin54@example.com',
+  gender: 'Female',
+  deposit: '3003',
+  accountnumber: '185  ' }
+In Update the customer json is  { firstName: 'Vergil',
+  lastName: 'O\'Kynsillaghe',
+  email: 'vokynsillaghekp@hatena.ne.jp',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '746  ' }
+In Update the customer json is  { firstName: 'Haywood',
+  lastName: 'O\'Howbane',
+  email: 'hohowbanemd@house.gov',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '806  ' }
+In Update the customer json is  { firstName: 'Dionysus',
+  lastName: 'O\'Grada',
+  email: 'dogradaou@parallels.com',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '895  ' }
+In Update the customer json is  { firstName: 'Podgy',
+  lastName: 'Panda',
+  email: 'bunny3@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10003' }
+In Update the customer json is  { firstName: 'Dodgy',
+  lastName: 'Panda',
+  email: 'bunny4@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10004' }
+In Update the customer json is  { firstName: 'Lolly',
+  lastName: 'Liger',
+  email: 'bunny5@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10006' }
+In Update the customer json is  { firstName: 'Lolly',
+  lastName: 'Liger',
+  email: 'bunny5@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10006' }
+In Update the customer json is  { firstName: 'Loving',
+  lastName: 'Liger',
+  email: 'bunny6@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10007' }
+In Update the customer json is  { firstName: 'Loving',
+  lastName: 'Tiger',
+  email: 'bunny7@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10008' }
+In Update the customer json is  { firstName: 'Loving',
+  lastName: 'Wiger',
+  email: 'WWWWbunny7@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10009' }
+In Update the customer json is  { firstName: 'Janeta',
+  lastName: 'O\'Keefe',
+  email: 'jokeefe80@trellian.com',
+  gender: 'Female',
+  deposit: '3003',
+  accountnumber: '289  ' }
+In Update the customer json is  { firstName: 'Scott',
+  lastName: 'Camera',
+  email: 'wodgy@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10010' }
+In Update the customer json is  { firstName: 'Ethelda',
+  lastName: 'O\'Rodane',
+  email: 'eorodaneeu@imageshack.us',
+  gender: 'Female',
+  deposit: '3003',
+  accountnumber: '535  ' }
+In Update the customer json is  { firstName: 'Chic',
+  lastName: 'O\'Dare',
+  email: 'codarefh@upenn.edu',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '558  ' }
+In Update the customer json is  { firstName: 'Jodie',
+  lastName: 'O\'Lyhane',
+  email: 'jolyhane2u@pbs.org',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '103  ' }
+In Update the customer json is  { firstName: 'Palm',
+  lastName: 'O\'Loinn',
+  email: 'poloinne5@irs.gov',
+  gender: 'Male  ',
+  deposit: '3003',
+  accountnumber: '510  ' }
+In Update the customer json is  { firstName: 'Light',
+  lastName: 'Lemur',
+  email: 'bunny2@dodgy.com',
+  gender: 'male  ',
+  deposit: '3003',
+  accountnumber: '10002' }
+Producer Connected
+COUNT OF NEW MESSAGES FOR THE QUEUE IS 4
