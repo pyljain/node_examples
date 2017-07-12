@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <script src="socket.io.js"></script>
+  </head>
+  <body>
+    <input type="text" onkeyup="sendmessage(event)" />
+    <ul id="messages">
+    </ul>
+    <script>
+      var socket = io()
+      function sendmessage(event) {
+        if(event.keyCode == 13) {
+          socket.emit('chat', event.target.value)
+          event.target.value = ''
+        }
+      }
+
+      socket.on('chat', updateList)
+
+      function updateList(message) {
+        var li = document.createElement('li')
+        li.innerText = message
+        document.getElementById('messages').appendChild(li)
+
+      }
+
+    </script>
+  </body>
+</html>

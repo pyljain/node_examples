@@ -1,0 +1,114 @@
+<html>
+<head>
+  <h1>  </h1>
+  <link rel="stylesheet" href="/assets/styles/salesforce-lightning-design-system.min.css" />
+</head>
+<body>
+  <div class="slds-page-header">
+    <div class="slds-media">
+      <div class="slds-media__figure">
+        <span class="slds-icon_container slds-icon-standard-opportunity" title="Description of icon when needed">
+        </span>
+      </div>
+      <div class="slds-media__body">
+        <h1 class="slds-page-header__title slds-truncate slds-align-middle" title="Login">Please review your onboarding steps</h1>
+        <p class="slds-text-body_small slds-line-height_reset">Update Step Status</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="slds-table_edit_container slds-is-relative">
+    <table class="slds-table slds-table_edit slds-table_bordered slds-table_fixed-layout slds-table_resizable-cols slds-no-cell-focus" role="grid" style="width: 66.75rem;">
+      <thead>
+        <tr class="slds-line-height_reset">
+          <th class="slds-is-sortable slds-is-resizable slds-text-title_caps" scope="col" style="width: 8.75rem;">
+              <span class="slds-assistive-text">Sort </span>
+              <span class="slds-truncate" title="Name">Step #</span>
+              <div class="slds-icon_container">
+              </div>
+              <span class="slds-assistive-text" aria-live="assertive" aria-atomic="true"></span>
+            </a>
+          </th>
+          <th class="slds-is-sortable slds-is-resizable slds-text-title_caps" scope="col" style="width: 8.75rem;">
+            <a href="javascript:void(0);" class="slds-th__action slds-text-link_reset" tabindex="-1">
+              <span class="slds-assistive-text">Sort </span>
+              <span class="slds-truncate" title="Summary">Summary</span>
+              <div class="slds-icon_container">
+              </div>
+              <span class="slds-assistive-text" aria-live="assertive" aria-atomic="true"></span>
+            </a>
+          </th>
+          <th class="slds-is-sortable slds-is-resizable slds-text-title_caps" scope="col" style="width: 8.75rem;">
+            <a href="javascript:void(0);" class="slds-th__action slds-text-link_reset" tabindex="-1">
+              <span class="slds-assistive-text">Sort </span>
+              <span class="slds-truncate" title="Status">Step Status</span>
+              <div class="slds-icon_container">
+              </div>
+              <span class="slds-assistive-text" aria-live="assertive" aria-atomic="true"></span>
+            </a>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+          <form method="POST" action="/updatesteps" enctype="multipart/form-data">
+        {{#steps}}
+        <tr class="slds-hint-parent">
+          <td role="gridcell" class="slds-cell-edit">
+            <span class="slds-grid slds-grid_align-spread">
+              <span class="slds-truncate" title="stepid">{{step_id}}</span>
+              <button class="slds-button slds-button_icon slds-cell-edit__button slds-m-left_x-small" tabindex="-1">
+                <span class="slds-assistive-text">Edit Account Name: Item 2</span>
+              </button>
+            </span>
+          </td>
+          <td role="gridcell" class="slds-cell-edit">
+            <span class="slds-grid slds-grid_align-spread">
+              <span class="slds-truncate" title="status">{{status}}</span>
+              <button class="slds-button slds-button_icon slds-cell-edit__button slds-m-left_x-small" tabindex="-1">
+                <span class="slds-assistive-text">Edit Account Name: Item 2</span>
+              </button>
+            </span>
+          </td>
+          <td role="gridcell" class="slds-cell-edit">
+            <span class="slds-grid slds-grid_align-spread">
+              <span class="slds-truncate" title="Summary">{{summary}}</span>
+              <button class="slds-button slds-button_icon slds-cell-edit__button slds-m-left_x-small" tabindex="-1">
+                <span class="slds-assistive-text">Edit Account Name: Item 2</span>
+              </button>
+            </span>
+          </td>
+        </tr>
+        {{/steps}}
+      </tbody>
+    </table>
+  </div>
+
+  <br/>
+  <br/>
+  <button class="slds-button slds-button--brand">Update Steps</button>
+</form>
+<script>
+var partnerId = '{{ partnerId }}'
+var req;
+
+function checkInput() {
+  req = new XMLHttpRequest()
+  req.addEventListener("load", updateStatus)
+  req.open("POST", '/updatesteps')
+  req.setRequestHeader("Content-type", "application/json")
+  req.send(
+    {
+      dataid: document.getElementById("input-status").dataset.id,
+      partner: partnerId
+    }
+  )
+}
+
+function updateStatus () {
+  console.log('Response is', req.response)
+}
+
+console.log(partnerId)
+</script>
+</body>
+</html>

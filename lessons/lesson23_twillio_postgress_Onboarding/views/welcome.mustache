@@ -1,0 +1,94 @@
+<html>
+<head>
+  <h1>  </h1>
+  <link rel="stylesheet" href="/assets/styles/salesforce-lightning-design-system.min.css" />
+</head>
+<body>
+  <div class="slds-page-header">
+    <div class="slds-media">
+      <div class="slds-media__figure">
+        <span class="slds-icon_container slds-icon-standard-opportunity" title="Description of icon when needed">
+          <svg class="slds-icon" aria-hidden="true">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#opportunity"></use>
+          </svg>
+        </span>
+      </div>
+      <div class="slds-media__body">
+        <h1 class="slds-page-header__title slds-truncate slds-align-middle" title="Login">Please review your onboarding steps</h1>
+        <p class="slds-text-body_small slds-line-height_reset">Update Step Status</p>
+      </div>
+    </div>
+  </div>
+
+  <table style="width:60%" class="slds-table slds-table_bordered slds-table_cell-buffer slds-table_edit_container slds-is-relative">
+    <thead>
+      <tr class="slds-text-title_caps">
+        <th scope="col">
+          <div class="slds-truncate" title="Step Name">Step #</div>
+        </th>
+        <th scope="col">
+          <div class="slds-truncate" title="Step Status">Step Status</div>
+        </th>
+        <th scope="col">
+          <div class="slds-truncate" title="Step Summary">Step Summary</div>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <form method="POST" action="/updatesteps" enctype="multipart/form-data">
+        {{#steps}}
+        <tr>
+          <td class="slds-cell-edit slds-cell-error" data-label="Step #">
+            <div class="slds-truncate" title="Step#" name="Step#">{{step_id}}</div>
+          </td>
+          <td class="slds-cell-edit slds-cell-error" data-label="Step Status">
+            <!--<div class="slds-truncate slds-input" title="Status" name="status#" input type="text" data-id={{assignedto_id}}>{{status}}</div>-->
+            <select class="slds-input" data-partnerid={{assignedto_id}} data-id="{{ step_id }}" value="{{status}}" onchange="checkInput(event)">
+              <option value="Not Started" {{#isNotStarted}}selected{{/isNotStarted}}>Not Started</option>
+              <option value="In Progress" {{#isInProgress}}selected{{/isInProgress}}>In Progress</option>
+              <option value="Completed" {{#isCompleted}}selected{{/isCompleted}}>Completed</option>
+            </select>
+          </td>
+          <td class="slds-cell-edit slds-cell-error" data-label="Step Summary">
+            <div class="slds-truncate" title="Summary" name="summary#" data-id={{assignedto_id}}>{{summary}}</div>
+          </td>
+          <td data-label="Hidden" hidden>
+            <div class="slds-truncate" title="Summary" name="hidden" hidden>{{ASSIGNEDTO_ID}}</div>
+          </td>
+
+        </tr>
+        {{/steps}}
+      </tbody>
+    </table>
+
+    <br/>
+    <br/>
+    <button class="slds-button slds-button--brand">Update Steps</button>
+  </form>
+  <script>
+  var req;
+
+  function checkInput(event) {
+
+    var requestMessage = {
+      dataid: event.target.dataset.id,
+      partner: event.target.dataset.partnerid,
+      value: event.target.value
+    };
+
+    console.log('Sending', requestMessage);
+
+    req = new XMLHttpRequest();
+    req.open("POST", '/updatesteps');
+    req.setRequestHeader("Content-type", "application/json");
+    req.send(JSON.stringify(requestMessage));
+
+    req.onload = function() {
+      console.log('Called method', req.response)
+    }
+  }
+
+  console.log(partnerId)
+  </script>
+</body>
+</html>

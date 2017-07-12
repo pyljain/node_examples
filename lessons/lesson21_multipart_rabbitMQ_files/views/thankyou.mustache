@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Thank You
+  </title>
+</head>
+<body>
+  <h1 id='user-response'>
+    Thank you for uploafing your profile image.
+    Your reference number is {{fileName}}
+  </h1>
+  <br/>
+  <script>
+  function isThumbnailReady() {
+    console.log('Is the image ready?', req.response)
+    if(req.response === 'NOT READY') {
+      setTimeout(checkStatus, 1000)
+    } else {
+      var oImg = document.createElement("img")
+      oImg.setAttribute('src', '/{{fileName}}');
+      document.getElementById('user-response').appendChild(oImg)
+
+    }
+
+  }
+
+  var req;
+
+  function checkStatus() {
+    req = new XMLHttpRequest()
+    req.addEventListener("load", isThumbnailReady)
+    req.open("GET", "/status/{{fileName}}")
+    req.send()
+  }
+
+  checkStatus()
+
+
+  </script>
+</body>
+</html>
